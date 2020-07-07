@@ -152,7 +152,7 @@ public class SoThanhChu {
                     break;
             }
             System.out.println(chuHangChuc + chuHangDonVi);
-        } else if (number > 99 && number < 999) {
+        } else if (number > 99 && number <= 999) {
             soHangTram = (number - (number % 100)) / 100;
             switch (soHangTram) {
                 case 1:
